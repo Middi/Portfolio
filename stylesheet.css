@@ -15,9 +15,11 @@
         font-size: 9em;
     }
     
-    div {
+    .wrap {
         
         width: 350px;
+        margin: 100px auto;
+       
         
     }
 }
@@ -30,9 +32,10 @@
         font-size: 15em;
     }
     
-    div {
+    .wrap {
         
         width: 600px;
+        margin: 180px auto;
         
     }
 }
@@ -44,7 +47,7 @@
 .wrap {
     
     
-    margin: 160px auto;
+    
     text-align: center;
     position: relative;
    
