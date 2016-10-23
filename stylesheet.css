@@ -1,5 +1,28 @@
 * {
-  margin: 0 0 0 0;
-  padding: 0;
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    color: #0A2231;
+    background: #183446;
 
+}
+
+
+.wrap {
+    
+    width: 100%;
+    Height: 100%;
+    
+    
+
+}
+
+
+
+h1 {
+    
+    font-size: 12em;
+   
+    
+    
 }
