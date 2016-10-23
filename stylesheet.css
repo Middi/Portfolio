@@ -2,27 +2,58 @@
     margin: 0 0 0 0;
     padding: 0;
     font-family: 'Source Code Pro', monospace;
-    color: #0A2231;
     background: #183446;
 
 }
 
 
+
 .wrap {
     
     width: 100%;
-    Height: 100%;
+    margin: 160px auto;
+    text-align: center;
+    position: relative;
+   
     
     
 
 }
 
 
-
 h1 {
     
-    font-size: 12em;
-   
+    font-size: 15em;
+    color: rgba(0,0,0,0.4);
+  
+    
+}
+
+
+
+h1:hover {
+    
+    font-size: 15em;
+    color: rgba(0,0,0,0.5);
+  
+    
+}
+
+
+
+#icons img {
+    
+    height: 40px;
+    width: 40px;
+    opacity: 0.4;
+    
+    
+}
+
+#icons img:hover {
+    
+    opacity: 0.5;
+    
     
     
 }
