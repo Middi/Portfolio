@@ -2,135 +2,113 @@
     margin: 0 0 0 0;
     padding: 0;
     font-family: 'Source Code Pro', monospace;
-    background: #183446;
+    background-color: #183446;
+}
 
+a {
+    font-family: sans-serif;
+    color: #183446;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 
 /* RESPONSIVE SECTION */
 
-
-
-@media screen and (max-width: 700px) and (min-width: 100px)  {
-    
+@media screen and (max-width: 700px) and (min-width: 100px) {
     h1 {
-        
         font-size: 9em;
     }
-    
     h4 {
-    
-    font-size: 1.2em;
-    
-    
-}
-
-    img {
-    
-    height: 1em;
-    width: 1em;
-        
+        font-size: 1.2em;
     }
-    
-    
+    img {
+        height: 1em;
+        width: 1em;
+    }
     .wrap {
-        
         width: 350px;
         margin: 100px auto;
-       
-        
     }
 }
 
-
-@media screen and (max-width: 2000px) and (min-width: 701px)  {
-    
+@media screen and (max-width: 2000px) and (min-width: 701px) {
     h1 {
-        
         font-size: 15em;
     }
-    
     h4 {
-    
-    font-size: 1.5em;
-        
+        font-size: 1.5em;
     }
-
-    
     img {
-    
-    height: 2em;
-    width: 2em;
-        
+        height: 2em;
+        width: 2em;
     }
-    
-    
     .wrap {
-        
         width: 600px;
         margin: 180px auto;
-        
     }
 }
 
+nav {
+    background-color: #0e1f2a;
+    height: 40px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #0e1e2a;
+}
 
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
 
+nav li {
+    float: left;
+    background-color: #0e1f2a;
+    padding-left: 15px;
+    display: inline-block;
+    line-height: 40px;
+}
 
+nav li a {
+    background-color: #0e1f2a;
+}
+
+nav li a:hover {
+    color: #88a3b1;
+
+}
 
 .wrap {
-    
-    
-    
     text-align: center;
     position: relative;
-   
-    
-    
 
 }
-
 
 h1 {
-    
-    
-    color: rgba(0,0,0,0.4);
-  
-    
+    color: rgba(0, 0, 0, 0.4);
+    cursor: default;
 }
-
-
 
 h1:hover {
-    
-    color: rgba(0,0,0,0.5);
-  
-    
+    color: rgba(0, 0, 0, 0.5);
 }
-
-
 
 h4 {
-    
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 0, 0, 0.4);
     padding-bottom: 1em;
-    
+    cursor: default;
 }
 
-
-
 #icons img {
-    
     height: 40px;
     width: 40px;
     opacity: 0.4;
-    
-    
 }
 
 #icons img:hover {
-    
     opacity: 0.5;
-    
-    
-    
 }
