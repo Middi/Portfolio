@@ -51,26 +51,42 @@ a {
     }
 }
 
+
+.topbar {
+
+
+width: 100%;
+position:fixed;
+top: 0px;
+height: 41px;
+background-color: #0e1f2a;
+
+
+}
+
+
 nav {
-    background-color: #0e1f2a;
+  margin-left: auto;
+  margin-right: auto;
     height: 40px;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid #0e1e2a;
+    max-width: 1000px;
+    background-color: #0e1f2a;
+
 }
 
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 nav li {
     float: left;
     background-color: #0e1f2a;
     padding-left: 15px;
+    padding-top: 3px;
     display: inline-block;
-    line-height: 40px;
+    line-height: 37px;
+    margin-top: 0;
 }
 
 nav li a {
