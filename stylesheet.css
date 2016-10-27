@@ -2,12 +2,12 @@
     margin: 0 0 0 0;
     padding: 0;
     font-family: 'Source Code Pro', monospace;
-    background-color: #183446;
+    background-color: #f25d59;
 }
 
 a {
     font-family: sans-serif;
-    color: #183446;
+    color: rgba(45, 58, 50, 1);
     font-weight: 500;
     text-transform: uppercase;
     font-size: 15px;
@@ -58,8 +58,7 @@ a {
 width: 100%;
 position:fixed;
 top: 0px;
-height: 41px;
-background-color: #0e1f2a;
+height: 60px;
 
 
 }
@@ -68,9 +67,9 @@ background-color: #0e1f2a;
 nav {
   margin-left: auto;
   margin-right: auto;
-    height: 40px;
+    height: 60px;
     max-width: 1000px;
-    background-color: #0e1f2a;
+    border-bottom: 1px solid black;
 
 }
 
@@ -81,20 +80,21 @@ nav ul {
 
 nav li {
     float: left;
-    background-color: #0e1f2a;
     padding-left: 15px;
     padding-top: 3px;
     display: inline-block;
-    line-height: 37px;
+    line-height: 56px;
     margin-top: 0;
 }
 
 nav li a {
-    background-color: #0e1f2a;
+
 }
 
 nav li a:hover {
-    color: #88a3b1;
+    color: rgba(219, 222, 203, 1);
+    border-bottom: rgba(219, 222, 203, 1) solid 4px;
+    padding-bottom: 17px;
 
 }
 
@@ -105,16 +105,16 @@ nav li a:hover {
 }
 
 h1 {
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(45, 58, 50, 1);
     cursor: default;
 }
 
 h1:hover {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(45, 58, 50, 1);
 }
 
 h4 {
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(219, 222, 203, 1);
     padding-bottom: 1em;
     cursor: default;
 }
@@ -122,9 +122,13 @@ h4 {
 #icons img {
     height: 40px;
     width: 40px;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 #icons img:hover {
-    opacity: 0.5;
+    opacity: 0.8;
+}
+
+.icon {
+  fill: #ffffff;
 }
