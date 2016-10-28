@@ -60,6 +60,7 @@ position:fixed;
 top: 0px;
 height: 60px;
 
+background-color: none;
 
 }
 
@@ -71,11 +72,15 @@ nav {
     max-width: 1000px;
     border-bottom: 1px solid black;
 
+    background-color: none;
+
 }
 
 nav ul {
     float: right;
     margin-right: 25px;
+
+    background-color: none;
 }
 
 nav li {
@@ -85,9 +90,23 @@ nav li {
     display: inline-block;
     line-height: 56px;
     margin-top: 0;
+
+    background-color: none;
 }
 
 nav li a {
+
+  color: rgba(45, 58, 50, 1);
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-out 50ms;
+      -moz-transition: all 500ms ease-out 50ms;
+      -o-transition: all 500ms ease-out 50ms;
+      transition: all 500ms ease-out 50ms;
+      padding-bottom: 20px;
+
+
+      border-bottom: black solid 1px;
+
 
 }
 
