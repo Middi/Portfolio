@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 
+$("body").css("background-color", randomColor());
 
 function randomColor() {
     var color = '#';
@@ -13,5 +14,3 @@ function randomColor() {
 
 
 });
-
-$('body').css('background-color', color);
